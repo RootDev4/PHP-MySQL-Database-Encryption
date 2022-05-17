@@ -1,0 +1,126 @@
+html, body
+{
+    margin: 0;
+    margin-bottom: 20px;
+    padding: 0;
+    background-color: #999;
+    font-size: 100%;
+}
+
+header
+{
+    font-family: "Lucida Console", Monaco, monospace;
+    padding: 20px;
+    width: 100%;
+    background-color: #333;
+    margin-bottom: 30px;
+}
+
+header h3
+{
+    color: #efefef;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+}
+
+header h3 img
+{
+    height: 35px;
+    margin: -5px 10px 0 0;
+    filter: brightness(0) invert(1);
+}
+
+section
+{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+section ul
+{
+    margin: 0;
+}
+
+section ul li
+{
+    margin: 0;
+    padding: 0;
+}
+
+section div.alert-warning
+{
+    margin-top: 20px;
+}
+
+section form input.enckey
+{
+    color: #000;
+    margin-left: 20px;
+    border: 1px solid #efefef;
+    border-radius: 5px;
+    outline: none;
+    width: 300px;
+    padding: 3px;
+}
+
+section form img#pwgen
+{
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+section form button
+{
+    float: right;
+}
+
+section form table
+{
+    width: 100%;
+    clear: right;
+}
+
+section form table thead tr td
+{
+    padding: 5px;
+    background: #ccc;
+    font-weight: bold;
+}
+
+section form table tbody tr:nth-child(odd)
+{
+    background: #efefef;
+}
+
+section form table tbody tr td
+{
+    padding: 5px;
+}
+
+section form input[type="checkbox"]
+{
+    cursor: pointer;
+}
+
+section span.aiInfo
+{
+    font-size: small;
+    padding-left: 20px;
+}
+
+section textarea
+{
+    width: 100%;
+    margin-top: 10px;
+    background: #fbfbef;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: small;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
